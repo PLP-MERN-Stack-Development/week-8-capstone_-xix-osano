@@ -1,15 +1,6 @@
 # MERN Stack Capstone Project
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
-
-## Assignment Overview
-
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+https://week-7-devops-deployment-assignment-xix-f5xi.onrender.com
 
 ## Getting Started
 
@@ -20,6 +11,37 @@ You will:
 
 ## Files Included
 
+```
+├── FinTrack-server/
+│   ├── config/             # Database connection setup
+│   │   └── db.js
+│   ├── controllers/        # Business logic for routes
+│   │   ├── authController.js
+│   │   └── expenseController.js
+│   ├── middleware/         # Custom middleware (e.g., authentication)
+│   │   └── authMiddleware.js
+│   ├── models/             # Mongoose schemas for data models
+│   │   ├── User.js
+│   │   └── Expense.js
+│   ├── routes/             # API endpoints
+│   │   ├── authRoutes.js
+│   │   └── expenseRoutes.js
+│   ├── .env                # Environment variables (sensitive info)
+│   ├── package.json
+│   └── server.js           # Main Express server file
+│
+└── FinTrack-client/
+    ├── public/
+    ├── src/
+    │   ├── App.js          # Main application component, handles routing
+    │   ├── AuthForm.js     # Login and Registration form component
+    │   ├── Dashboard.js    # Main dashboard component, manages expense state
+    │   ├── ExpenseForm.js  # Component for adding new expenses
+    │   ├── ExpenseList.js  # Component for displaying expenses table
+    │   └── index.js        # React app entry point
+    ├── package.json
+    └── README.md           # This file
+```
 - `Week8-Assignment.md`: Detailed assignment instructions
 
 ## Requirements
@@ -29,19 +51,6 @@ You will:
 - npm or yarn
 - Git and GitHub account
 - Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
-
-## Project Ideas
-
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
-
-## Submission
-
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
-
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
 
 ## Resources
 
